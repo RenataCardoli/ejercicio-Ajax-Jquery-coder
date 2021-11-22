@@ -1,13 +1,5 @@
+$( document ).ready(function() {
 let datos = []	
-	$.ajax({
-		method:'GET',
-		url:'../lib/datos.json',
-		success:function(response){
-			datos = response.data
-			tabla(datos)
-			console.log(datos)
-		}
-	})
 
 	function tabla(data){
 		let tablas = document.getElementById('miTabla')
@@ -21,3 +13,17 @@ let datos = []
 			tablas.innerHTML += row
 		}
 	}
+		const APIURL = '../lib/datos.json' ; 
+		$("#boton").click(() => { 
+			$.ajax({
+				method: "GET",
+				url:  APIURL,
+				success: function(response){
+					datos = response.data
+					tabla(datos)
+					console.log(datos)
+				}
+			});
+		});
+	});
+	
