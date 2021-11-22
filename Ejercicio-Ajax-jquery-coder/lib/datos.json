@@ -1,0 +1,15 @@
+{"data":
+    [
+    {"tipo":"Alimentacion","fecha":"11-05-2020","valor":"1200"},
+    {"tipo":"Educacion","fecha":"01-06-2020","valor":"2500"},
+    {"tipo":"Alimentacion","fecha":"17-08-2020","valor":"100"},
+    {"tipo":"Bienestar","fecha":"21-08-2020","valor":"1800"},
+    {"tipo":"Transporte","fecha":"02-09-2020","valor":"2000"},
+    {"tipo":"Alimentacion","fecha":"19-01-2021","valor":"450"},
+    {"tipo":"Bienestar","fecha":"21-02-2021","valor":"1800"},
+    {"tipo":"Transporte","fecha":"02-05-2021","valor":"2000"},
+    {"tipo":"Alimentacion","fecha":"15-06-2021","valor":"450"},
+    {"tipo":"Alimentacion","fecha":"19-09-2021","valor":"800"},
+    {"tipo":"Bienestar","fecha":"19-11-2021","valor":"3000"}
+]
+}
